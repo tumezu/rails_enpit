@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.2.2
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: PKC/0HmxS2AGSnKRHrfILLKXXqCZPdWsOhQGfuPyFOlfqasS0PekVJR767kEpZMh3/MJPRvrmHUfx5+3+xL6TJV/yxxT9yNeibopGwA1xTej3P5+KGK/SjJX6IEz7a7IW0VHZXEXKT86Ba/T1Ee47sA3uGgSVhvsRR86r6bOs1eqEtt4OF0GwcMV6xgiER5eRzCcBl1HG9U1TM3sKINM4O1pBub7Fa2RBpLgDC8N2nsyr+I2zs4i7lzYzIRF0hziIS/oEXYnH0IGVVSYfVmF5l2OSIUlOECtzr7gmrT7AxW7PHafUVFIxMkhzcIpVL/xJCkQh/X0bvp48ohXy37p2uS5K4B3l1Ko5GM0kB2AIxI0vmCF1dqe5yDW+kZMIWoOmmCHM7A8396I8yh+T3F0U6a9RPCt4riyEsbA+v8D7MY6QP0BxzoW7EwJ5f8lgESmOadcKJVWuNc5c3sYnV0yd1TMkUn7BLlod+ntt7ruipKdSZr2O4xeBYanZjJ3YCs131DWSFLoToScK6za+ceXCdyghcoVA+u8V7bn4P2M034foyb5pQ83ctHwujkq8e/kWvTCNe7lIEWk9UmQ6niOrv/H4U+gJb+Te8apGNba+qHoYF1lKyY03A3qflZ36K7v1uoz90kwfzwXGgMbmVuUy30WO52xa4pRbyptLcLbakY=
+  app: rocky-plateau-1039
+  on:
+    repo: tumezu/rails_enpit
